@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="grid gap-10 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
             <div className="flex flex-col justify-center space-y-6">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">John Smith</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Victor Kamanja</h2>
                 <p className="text-xl text-muted-foreground">
                   <span className="text-primary font-semibold">Cybersecurity Consultant & Penetration Tester</span>
                 </p>
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <div className="relative overflow-hidden rounded-xl border border-primary/20 bg-background p-2">
                   <Image
                     src="/cyber-guardian.png"
-                    alt="John Smith - Cybersecurity Professional"
+                    alt="Victor Kamanja - Cybersecurity Professional"
                     width={500}
                     height={500}
                     className="rounded-lg object-cover w-full h-full"
