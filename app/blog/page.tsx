@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import Image from "next/image";
 import { BlogPost } from "@/lib/types"; // Import BlogPost type from lib/types
 import { formatDate } from "@/lib/utils"; // Assuming formatDate is in utils
+import AdminBlogSection from "@/components/admin-blog-section";
 
 export default async function BlogPage() {
   // Use the imported BlogPost type
@@ -29,6 +30,7 @@ export default async function BlogPage() {
 
       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6">
+          <AdminBlogSection />
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {posts.map((post) => ( // Type is inferred correctly now
               <Card key={post.id} className="overflow-hidden">

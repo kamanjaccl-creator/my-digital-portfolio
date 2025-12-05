@@ -40,6 +40,22 @@ export default async function AdminPage() {
             </div>
           </CardContent>
         </Card>
+        {/* Blog Management Card */}
+        <Card>
+          <CardHeader>
+            <CardTitle>Blog</CardTitle>
+            <CardDescription>Manage blog posts</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <Button asChild className="w-full">
+                <Link href="/admin/blog" className="flex items-center justify-center gap-2">
+                  Manage Blog
+                </Link>
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
       </div>
 
       <Card className="mb-8">
@@ -62,11 +78,11 @@ export default async function AdminPage() {
           <form className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="siteName">Site Name</Label>
-              <Input id="siteName" defaultValue="CyberApp" />
+              <Input id="siteName" defaultValue="Victor Kamanja" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="adminEmail">Admin Email</Label>
-              <Input id="adminEmail" type="email" defaultValue="admin@cyberapp.com" />
+              <Input id="adminEmail" type="email" defaultValue="admin@victorkamanja.com" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="maintenanceMode">Maintenance Mode</Label>

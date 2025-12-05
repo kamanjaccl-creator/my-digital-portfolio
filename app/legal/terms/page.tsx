@@ -29,6 +29,7 @@ export default function TermsOfServicePage() {
               </p>
               <p className="mb-4">
                 By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service. We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms. Please review this page periodically for updates. The terms &quot;we&quot;, &quot;us&quot;, and &quot;our&quot; refer to CyberApp Inc.
+                  By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service. We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms. Please review this page periodically for updates. The terms &quot;we&quot;, &quot;us&quot;, and &quot;our&quot; refer to Victor Kamanja.
               </p>
             </div>
 
