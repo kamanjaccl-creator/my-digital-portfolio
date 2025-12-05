@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="grid gap-10 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
             <div className="flex flex-col justify-center space-y-6">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Victor Kamanja</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Victor Kamanja Rurira</h2>
                 <p className="text-xl text-muted-foreground">
                   <span className="text-primary font-semibold">Cybersecurity Consultant & Penetration Tester</span>
                 </p>
