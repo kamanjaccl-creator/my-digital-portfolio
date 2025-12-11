@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <div className="relative overflow-hidden rounded-xl border border-primary/20 bg-background p-2">
                   <Image
                     src="/cyber-guardian.png"
-                    alt="Victor Kamanja - Cybersecurity Professional"
+                    alt="Victor Kamanja R- Cybersecurity Professional"
                     width={500}
                     height={500}
                     className="rounded-lg object-cover w-full h-full"
